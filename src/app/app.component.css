@@ -1,0 +1,15 @@
+#app-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+#about-me {
+    position: sticky;
+    padding: 2rem;
+    top: 0;
+    max-height: 100vh;
+}
+
+#content {
+    padding: 2rem;
+}
