@@ -1,6 +1,7 @@
 #app-body {
     display: flex;
     justify-content: space-around;
+    color: lightgray;
 }
 
 #about-me {
@@ -12,4 +13,19 @@
 
 #content {
     padding: 2rem;
+}
+
+.section-component {
+    transition: all .1s ease-out;
+}
+
+.section-component:hover {
+    transition: all .05s ease-in;
+    background-color: #090979;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+}
+
+.section-padding {
+    padding: 1rem;
 }
