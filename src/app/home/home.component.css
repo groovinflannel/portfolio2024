@@ -2,7 +2,27 @@ h1 {
     font-size: 52px;
 }
 
+ul {
+    list-style: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 #nav-info {
     display: flex;
     flex-direction: column;
+}
+
+.nav-link {
+    transition: all .25s ease-out;
+    width: 30%;
+}
+
+.nav-link:hover {
+    font-size: 24px;
+    padding: .5rem;
+    transition: all .25s ease-in;
 }
