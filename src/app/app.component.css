@@ -29,3 +29,14 @@
 .section-padding {
     padding: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+    #app-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-me {
+        position: inherit;
+    }
+}
